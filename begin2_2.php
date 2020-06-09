@@ -14,6 +14,7 @@ echo "curl.cainfo: ", ini_get('curl.cainfo'), "\n";
 print('<br />');
 echo '------------------------------------';
 print('<br />');
+echo "end";
 //
 // 2
 
