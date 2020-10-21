@@ -24,6 +24,9 @@
 
 	body {
 		line-height: 1;
+		font-size: 16px;
+		font-family: serif;
+		background-color: #5ccfb0;
 	}
 
 	ol, ul {
