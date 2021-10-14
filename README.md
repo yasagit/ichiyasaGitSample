@@ -1,3 +1,3 @@
 # ichiyasaGitSample
-『いちばんやさしいGit&GitHubの教本』のサンプルプロジェクト
+## git復習用
 
