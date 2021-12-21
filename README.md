@@ -1,3 +1,3 @@
 # ichiyasaGitSample
-『いちばんやさしいGit&GitHubの教本』のサンプルプロジェクト 変更
+『いちばんやさしいGit&GitHubの教本』のサンプルプロジェクト 変更テスト
 
