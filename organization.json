@@ -1,0 +1,224 @@
+[
+  {
+    "analyzedAt": "2023-12-06T09:11:36.000Z",
+    "createdAt": "2023-12-06T09:11:49.000Z",
+    "id": "7ef7a43f-773b-48ca-bc53-05f26532f949",
+    "resource": "arn:aws:iam::573341082011:role/AmazonS3FullAccess_for_role",
+    "resourceType": "AWS::IAM::Role",
+    "resourceOwnerAccount": "573341082011",
+    "status": "ACTIVE",
+    "updatedAt": "2023-12-06T09:11:49.000Z",
+    "findingType": "UnusedIAMRole"
+  },
+  {
+    "analyzedAt": "2023-12-06T09:11:36.000Z",
+    "createdAt": "2023-12-06T09:11:48.000Z",
+    "id": "8e8a716f-fef5-4a7d-b540-659fd8727745",
+    "resource": "arn:aws:iam::573341082011:role/TerraformExecutionRole",
+    "resourceType": "AWS::IAM::Role",
+    "resourceOwnerAccount": "573341082011",
+    "status": "ACTIVE",
+    "updatedAt": "2023-12-06T09:11:48.000Z",
+    "findingType": "UnusedIAMRole"
+  },
+  {
+    "analyzedAt": "2023-12-06T09:11:46.000Z",
+    "createdAt": "2023-12-06T09:11:47.000Z",
+    "id": "71097d13-d0a9-4c1c-80dd-459f02ade9f1",
+    "resource": "arn:aws:iam::573341082011:role/AdministratorAccess",
+    "resourceType": "AWS::IAM::Role",
+    "resourceOwnerAccount": "573341082011",
+    "status": "ACTIVE",
+    "updatedAt": "2023-12-06T09:11:47.000Z",
+    "findingType": "UnusedPermission"
+  },
+  {
+    "analyzedAt": "2023-12-06T09:11:36.000Z",
+    "createdAt": "2023-12-06T09:11:47.000Z",
+    "id": "e08986a4-e887-4f7c-ad7c-b5065f171c19",
+    "resource": "arn:aws:iam::573341082011:role/AdministratorAccess_for_role",
+    "resourceType": "AWS::IAM::Role",
+    "resourceOwnerAccount": "573341082011",
+    "status": "ACTIVE",
+    "updatedAt": "2023-12-06T09:11:47.000Z",
+    "findingType": "UnusedIAMRole"
+  },
+  {
+    "analyzedAt": "2023-12-06T09:11:35.000Z",
+    "createdAt": "2023-12-06T09:11:38.000Z",
+    "id": "b2110c92-8956-4dc2-b649-b21f2392ee3c",
+    "resource": "arn:aws:iam::573341082011:role/AmazonS3ReadOnlyAccess",
+    "resourceType": "AWS::IAM::Role",
+    "resourceOwnerAccount": "573341082011",
+    "status": "ACTIVE",
+    "updatedAt": "2023-12-06T09:11:38.000Z",
+    "findingType": "UnusedPermission"
+  },
+  {
+    "analyzedAt": "2023-12-06T09:11:35.000Z",
+    "createdAt": "2023-12-06T09:11:38.000Z",
+    "id": "02936ccd-5afa-4a9f-8be3-1b6fdca344c9",
+    "resource": "arn:aws:iam::573341082011:user/TestUser01",
+    "resourceType": "AWS::IAM::User",
+    "resourceOwnerAccount": "573341082011",
+    "status": "ACTIVE",
+    "updatedAt": "2023-12-06T09:11:38.000Z",
+    "findingType": "UnusedPermission"
+  },
+  {
+    "analyzedAt": "2023-12-06T09:11:25.000Z",
+    "createdAt": "2023-12-06T09:11:37.000Z",
+    "id": "d9053af8-5e22-48a2-ad92-0816df1866f6",
+    "resource": "arn:aws:iam::573341082011:user/TestUser04",
+    "resourceType": "AWS::IAM::User",
+    "resourceOwnerAccount": "573341082011",
+    "status": "ACTIVE",
+    "updatedAt": "2023-12-06T09:11:37.000Z",
+    "findingType": "UnusedIAMUserPassword"
+  },
+  {
+    "analyzedAt": "2023-12-06T09:11:26.000Z",
+    "createdAt": "2023-12-06T09:11:36.000Z",
+    "id": "1336b3fd-8cd5-4da8-b2ca-5d4b984517c6",
+    "resource": "arn:aws:iam::573341082011:role/rds-monitoring-role",
+    "resourceType": "AWS::IAM::Role",
+    "resourceOwnerAccount": "573341082011",
+    "status": "ACTIVE",
+    "updatedAt": "2023-12-06T09:11:36.000Z",
+    "findingType": "UnusedIAMRole"
+  },
+  {
+    "analyzedAt": "2023-12-06T09:11:15.000Z",
+    "createdAt": "2023-12-06T09:11:28.000Z",
+    "id": "b5df8f11-9a17-45fd-8afc-315cb7682f23",
+    "resource": "arn:aws:iam::573341082011:role/AdministratorAccess_without_PB",
+    "resourceType": "AWS::IAM::Role",
+    "resourceOwnerAccount": "573341082011",
+    "status": "ACTIVE",
+    "updatedAt": "2023-12-06T09:11:28.000Z",
+    "findingType": "UnusedIAMRole"
+  },
+  {
+    "analyzedAt": "2023-12-06T09:11:24.000Z",
+    "createdAt": "2023-12-06T09:11:28.000Z",
+    "id": "399c3a03-5579-40e3-807a-29540a7a2980",
+    "resource": "arn:aws:iam::573341082011:role/AmazonEC2RoleforSSM",
+    "resourceType": "AWS::IAM::Role",
+    "resourceOwnerAccount": "573341082011",
+    "status": "ACTIVE",
+    "updatedAt": "2023-12-06T09:11:28.000Z",
+    "findingType": "UnusedPermission"
+  },
+  {
+    "analyzedAt": "2023-12-06T09:11:15.000Z",
+    "createdAt": "2023-12-06T09:11:26.000Z",
+    "id": "1f9aa35e-c7aa-4b67-b61b-7c1e9237b87f",
+    "resource": "arn:aws:iam::573341082011:role/CodeCommit_GitPullPush",
+    "resourceType": "AWS::IAM::Role",
+    "resourceOwnerAccount": "573341082011",
+    "status": "ACTIVE",
+    "updatedAt": "2023-12-06T09:11:26.000Z",
+    "findingType": "UnusedIAMRole"
+  },
+  {
+    "analyzedAt": "2023-12-06T09:11:15.000Z",
+    "createdAt": "2023-12-06T09:11:26.000Z",
+    "id": "6e582393-157b-4578-9947-f73c6622c363",
+    "resource": "arn:aws:iam::573341082011:role/AmazonS3FullAccess",
+    "resourceType": "AWS::IAM::Role",
+    "resourceOwnerAccount": "573341082011",
+    "status": "ACTIVE",
+    "updatedAt": "2023-12-06T09:11:26.000Z",
+    "findingType": "UnusedIAMRole"
+  },
+  {
+    "analyzedAt": "2023-12-06T09:11:15.000Z",
+    "createdAt": "2023-12-06T09:11:26.000Z",
+    "id": "ce2e43c2-77c1-43ee-b9ee-ffe31e592722",
+    "resource": "arn:aws:iam::573341082011:role/ReadOnlyAccess_for_ec2",
+    "resourceType": "AWS::IAM::Role",
+    "resourceOwnerAccount": "573341082011",
+    "status": "ACTIVE",
+    "updatedAt": "2023-12-06T09:11:26.000Z",
+    "findingType": "UnusedIAMRole"
+  },
+  {
+    "analyzedAt": "2023-12-06T09:11:24.000Z",
+    "createdAt": "2023-12-06T09:11:25.000Z",
+    "id": "9ada329a-eddc-4e51-8028-5c9e7a5c60bf",
+    "resource": "arn:aws:iam::573341082011:user/EC2FullAccess",
+    "resourceType": "AWS::IAM::User",
+    "resourceOwnerAccount": "573341082011",
+    "status": "ACTIVE",
+    "updatedAt": "2023-12-06T09:11:25.000Z",
+    "findingType": "UnusedPermission"
+  },
+  {
+    "analyzedAt": "2023-12-06T09:11:12.000Z",
+    "createdAt": "2023-12-06T09:11:15.000Z",
+    "id": "1b89d36f-bf25-4f27-ae0e-2e4a2eb477c4",
+    "resource": "arn:aws:iam::872897330518:role/iamrl-root-root-bld",
+    "resourceType": "AWS::IAM::Role",
+    "resourceOwnerAccount": "872897330518",
+    "status": "ACTIVE",
+    "updatedAt": "2023-12-06T09:11:15.000Z",
+    "findingType": "UnusedPermission"
+  },
+  {
+    "analyzedAt": "2023-12-06T09:11:04.000Z",
+    "createdAt": "2023-12-06T09:11:14.000Z",
+    "id": "d7840199-c3d0-4418-9b03-b26a133145e6",
+    "resource": "arn:aws:iam::573341082011:role/AmazonS3ReadOnlyAccess_for_ec2",
+    "resourceType": "AWS::IAM::Role",
+    "resourceOwnerAccount": "573341082011",
+    "status": "ACTIVE",
+    "updatedAt": "2023-12-06T09:11:14.000Z",
+    "findingType": "UnusedIAMRole"
+  },
+  {
+    "analyzedAt": "2023-12-06T09:11:04.000Z",
+    "createdAt": "2023-12-06T09:11:14.000Z",
+    "id": "b824364b-d2a8-4093-ba38-63782a53fb5e",
+    "resource": "arn:aws:iam::573341082011:role/service-role/AWSCloud9SSMAccessRole",
+    "resourceType": "AWS::IAM::Role",
+    "resourceOwnerAccount": "573341082011",
+    "status": "ACTIVE",
+    "updatedAt": "2023-12-06T09:11:14.000Z",
+    "findingType": "UnusedIAMRole"
+  },
+  {
+    "analyzedAt": "2023-12-06T09:11:03.000Z",
+    "createdAt": "2023-12-06T09:11:14.000Z",
+    "id": "05b56f7b-7610-46e8-bbe4-90a39cc93034",
+    "resource": "arn:aws:iam::573341082011:user/TestUser03",
+    "resourceType": "AWS::IAM::User",
+    "resourceOwnerAccount": "573341082011",
+    "status": "ACTIVE",
+    "updatedAt": "2023-12-06T09:11:14.000Z",
+    "findingType": "UnusedIAMUserPassword"
+  },
+  {
+    "analyzedAt": "2023-12-06T09:11:11.000Z",
+    "createdAt": "2023-12-06T09:11:13.000Z",
+    "id": "cdec5929-b5f5-4b3e-994f-cad48c7ed8a9",
+    "resource": "arn:aws:iam::573341082011:role/AmazonS3FullAccess_for_user",
+    "resourceType": "AWS::IAM::Role",
+    "resourceOwnerAccount": "573341082011",
+    "status": "ACTIVE",
+    "updatedAt": "2023-12-06T09:11:13.000Z",
+    "findingType": "UnusedPermission"
+  },
+  {
+    "analyzedAt": "2023-12-06T09:11:11.000Z",
+    "createdAt": "2023-12-06T09:11:12.000Z",
+    "id": "edb46fd1-6ba3-4af3-9ba0-51735051d293",
+    "resource": "arn:aws:iam::573341082011:role/PowerUserAccess_for_ec2",
+    "resourceType": "AWS::IAM::Role",
+    "resourceOwnerAccount": "573341082011",
+    "status": "ACTIVE",
+    "updatedAt": "2023-12-06T09:11:12.000Z",
+    "findingType": "UnusedPermission"
+  }
+]
+
+
